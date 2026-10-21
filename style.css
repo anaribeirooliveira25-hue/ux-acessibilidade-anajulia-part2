@@ -1,0 +1,154 @@
+/* Configurações Gerais para Acessibilidade com Fundo Preto */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    background-color: #000000; /* Fundo Preto */
+    color: #ffffff; /* Texto Branco para Alto Contraste */
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #1e1e1e;
+    color: #fd8bc1;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 2px solid #fd8bc1;
+}
+
+.cabecalho h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cabecalho p {
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+/* Conteúdo Principal */
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estrutura dos Cards/Botões em Fundo Escuro */
+.card-wrapper {
+    margin-bottom: 25px;
+}
+
+.btn-abrir {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #ffffff;
+    border: 3px solid #fd8bc1;
+    border-radius: 12px;
+    padding: 25px;
+    text-decoration: none;
+    transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.card-titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fd8bc1;
+    margin-bottom: 8px;
+}
+
+.card-subtitulo {
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.btn-abrir:hover, .btn-abrir:focus {
+    background-color: #252525;
+    border-color: #ffb3d9;
+    transform: translateY(-2px);
+    outline: none;
+}
+
+/* Estilos de Detalhes para Páginas Secundárias */
+.pagina-detalhes {
+    background-color: #121212;
+    border: 2px solid #333333;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.pagina-detalhes h2 {
+    color: #fd8bc1;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #fd8bc1;
+    padding-bottom: 10px;
+}
+
+.pagina-detalhes section {
+    margin-bottom: 25px;
+}
+
+.pagina-detalhes h3 {
+    color: #ffb3d9;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pagina-detalhes p {
+    color: #dddddd;
+    font-size: 22px;
+}
+
+/* Figuras Ilustrativas Adaptadas para Modo Escuro */
+.figura-ilustrativa {
+    text-align: center;
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    border: 2px dashed #fd8bc1;
+}
+
+.figura-ilustrativa p {
+    color: #bbbbbb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Botão Voltar nas Páginas Secundárias */
+.btn-voltar {
+    display: inline-block;
+    background-color: #fd8bc1;
+    color: #000000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.btn-voltar:hover, .btn-voltar:focus {
+    background-color: #ffb3d9;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #888888;
+    font-weight: bold;
+}
